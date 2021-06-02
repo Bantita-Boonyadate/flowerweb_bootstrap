@@ -1,0 +1,71 @@
+.logo-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.flower-logo {
+    margin: 10px;
+    font-size: 28px;
+    font-family: sans-serif;
+}
+.navbar-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.navMenu {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    justify-content: space-evenly;
+    color: rgb(218, 85, 105);
+}
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    font-size: 23px;
+    font-family: sans-serif;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.leftMenu {
+    display: flex;
+    flex-flow: column wrap;
+    border: 1px solid lightgray;
+    padding: 15px 30px;
+    width: 200px;
+}
+.leftMenu>div {
+    padding: 10px 15px;
+    text-align: left;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(218, 85, 105);
+}
+p {
+    font-size: 23px;
+    font-family: sans-serif;
+}
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    border: 1px solid lightgray;
+    padding: 15px 30px;
+    width: 84%;
+}
+.product-list {
+    border: 1px solid lightgray;
+    margin: 20px 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.product-img {
+    width: 230px;
+    height: 340px;
+    border-radius: 10px;
+}
