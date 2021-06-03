@@ -11,6 +11,7 @@
 .navbar-flex {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .navMenu {
     display: flex;
@@ -27,6 +28,19 @@
     padding: 10px;
     font-size: 23px;
     font-family: sans-serif;
+}
+.nav-link {
+    color: rgb(218, 85, 105);
+}
+.bread-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.breadcrumb {
+    margin: 15px 30px;
+}
+.breadcrumb-item {
+    color: rgb(218, 85, 105);
 }
 .container {
     display: flex;
@@ -57,6 +71,7 @@ p {
     border: 1px solid lightgray;
     padding: 15px 30px;
     width: 84%;
+    justify-content: center;
 }
 .product-list {
     border: 1px solid lightgray;
@@ -68,4 +83,31 @@ p {
     width: 230px;
     height: 340px;
     border-radius: 10px;
+}
+.product-list h5 {
+    margin-top: 10px;
+}
+.footer-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 10px;
+    margin: 20px 0px;
+}
+.follow h6 {
+    margin-top: 5px;
+    padding-right: 20px;
+    color: rgb(218, 85, 105);
+}
+.follow-icon h6 {
+    padding-right: 20px;
+    color: rgb(218, 85, 105);
+}
+.copyright-flex {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    font-family: sans-serif;
+    font-size: 5px;
 }
